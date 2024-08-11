@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Contact Us</title>
+       <style>
+        header{
+            background-color: #f79316;
+                text-align: center;
+                color: black;
+                padding-bottom: 10px;
+        }
+        .un{
+            text-decoration: none;
+            color: black;
+        }
+        nav {
+            display: flex;
+    justify-content: right;
+    background: #444;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #ebedf0;
+    text-decoration: none;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+input[type="submit"] {
+    background-color: #f7931e; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Contact.info {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.logo{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 30px;
+        left: 50px;
+    }
+    body{
+    background: #f4e3ab;
+  }
+
+</style>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="un">
+            <img src="logo.PNG" alt="Logo" class="logo"><h1>Paws Sanctuary</h1></header></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="abtus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html#adopt">Adopt</a></li>
+                    <li><a href="procedure.html">Procedure</a></li>
+                    <li><a href="care.html">Care</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="container">
+                    <h1>Contact Us</h1>
+            
+                    <form action="" method="post">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" placeholder="First name">
+                        <br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Last name">
+                        <br>
+                        <label for="email">Email:</label>            
+                        <input type="text" id="email" Email="Email" placeholder="Your email address" required>
+                        <br>
+                        <label for="feed">Feedback</label>
+                        <textarea name="Feedback" id="feed" rows="6" placeholder="Enter your Feedback" required>  </textarea>
+                        <br>
+                        <br>
+                        <input type="submit" value ="Submit">
+                    </form>
+                </div>
+            
+                <div class="Contact info">
+                    <h2>Contact Information</h2>
+                    <p><a href="mailto:pawteam4@gmail.com">pawteam4@gmail.com</a></p>
+                    <p>Phone: +977 9845125800</p>
+                    <p>Address: Gangabu,Kathmandu</p>
+                </div>
+            </main>    
+    </body>
+</html>

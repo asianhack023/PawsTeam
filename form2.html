@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption-Form</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+.close-button {
+    position: absolute;
+    top: 50px;
+    right: 450px;
+    
+    color: #db0e0e;
+}
+
+
+
+h1 {
+    font-size: 24px;
+    color: #f79316;
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #f79316;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #00796b;
+}
+    </style>
+</head>
+<body>
+    <script src="form.js"></script>
+    <div class="container">
+        <a href="cats.html" class="close-button">X</a>
+        
+    <h1>Adoption Form</h1>
+    <form action="">
+        <label for="fname"><strong>First Name</strong></label>
+        <input type="text" id="fname" name="fname" placeholder="Enter first name" required>
+        <label for="lname"> <strong>Last Name</strong></label>
+        <input type="text" id="lname" name="lname" placeholder="Enter last name" required>
+        <label for="address"> <strong>Address</strong></label>
+        <input type="text" address="address" id=address placeholder="City,Municipality,Ward NO">
+        <label for="Contact"><strong>Phone Number</strong></label>
+        <input type="tel" Contact="Contact" id="Contact" maxlength="10"required>
+
+        <label for="number"><strong>Pets Before</strong></label>
+        <select name="Number" id="number">
+            <option value="None">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value=">4"> >4 </option>
+        </select>
+
+ 
+
+        
+
+        <input type="submit" value="submit">
+
+    </form>
+    </div>
+    
+</body>
+</html>
